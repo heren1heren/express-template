@@ -1,5 +1,5 @@
-import mongoose from 'mongoose';
-import { Schema } from 'mongoose';
+import mongoose, { Schema } from 'mongoose';
+
 mongoose.set('strictQuery', false);
 const mongoDB =
   'mongodb+srv://heren1heren:aeou&[{}@cluster0.ypym7h4.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
